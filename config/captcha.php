@@ -10,6 +10,7 @@ return [
      * Custom with function name (example customRequestCaptcha) or class@method (example \App\CustomRequestCaptcha@custom).
      * Function must be return instance, read more in folder ``examples``
      */
+    'version' => 'v2',
     'request_method' => null,
     'options' => [
         'multiple' => false,

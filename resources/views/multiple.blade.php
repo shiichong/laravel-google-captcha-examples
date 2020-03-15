@@ -32,7 +32,11 @@
 </form>
 {!! app('captcha')->displayMultiple() !!}
 {{--{!! app('captcha')->displayMultiple(['multiple' => true]) !!}--}}
-{!! app('captcha')->displayJs() !!}
+
+
+
+{!! NoCaptcha::renderJs() !!}
+
 <button id="reset_1">Reset 1</button>
 <button id="reset_all">Reset all</button>
 <script>
